@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nomadic-freedom-259503",
+  "private_key_id": "ca34cf798d16456b81dbcdf637a100dbe001db9c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDW3imP7OCty0Xi\nrELAcvQcoJtJl9dPwfb7eoZl48z0be5KD5ZRi9+8MBoTQDU8uG3qxeo0BPwYKFhb\nmmRHZFwS/BSEVJ8I3GH10e1ABIV5JmsX2pwHx2a0ttA1Jva8q6Iq7KF9J5mK/nou\n9KGZJIgrZQBJZk4HR6HRTfD/JH0MqTRtDH6sZcMsonY+osu4y401SOy8W5MbTHRe\nOheDbHt7yuipZR9lxYepJe8SpbRS1KFUBjPBuNgggF1Iez2vHqQiyHelpxh02yZD\nA1CwjmaPmK+JAFBfku+H2BjLXVP0JBXkIAOlFnwb9Itef/ip6ao+ZsTTApQRRDws\ne8X2eMM1AgMBAAECggEALY/0jkFzr0bAbf2LNhXqL7va0fMxxAbkYZUstKRmjJpX\nAjtl66rWaahljxl5cIPHQxZuwFMiRdkgS2RkyUK9x4TOsPTkuFNLLn4yafXLe9Iq\nuWcw2PFulPmDExJNFdrrS2DcKZbhFzk5HYXgUoINoe4L7oSUHTUSWjjF1sSdA7bm\nHtG0lJJfO3YhzZsgu8n/ns1zOj9PLHdw+oy4eceb3PUJedshnQ+tV+4Jf2RJrI9i\nuS3pu6SZyTSZYUpbrJk1LJ7AthZ7xgoFYi098N4CSsOJoiz67XEhjredafLBh7CY\n4ttTbSE7kH5rQd2mlBkCVjhEURlafnp/gSl8XgDEIQKBgQDtWVN2b/31nNpPfdys\nwBeYEfYp0xSAv6JxZqsbPOtL2rY00hBmuK8TI0JtU9kv/rac2vivxmYjzh6xEomt\nxXQDfb6ZDwmpNjgJ+tPyvob/Yd0E+wJxBetqPkTF3WyKzzvFHvY/w4Efivk4um8f\nlNVj43CjUC7YyPtoacRFm7JfHQKBgQDnwJdG78+SzQtPc0uhw4tQEaM5jLN0XPqm\nzkN+ptierjLZoATpc7f3FOLDGJHOpIZeW614BB9NHHSZVLr2Ve4p+mwfThr6VXcA\nkqHVm5jtjCBsUIbxaeadCQF/vOsj15dX8jL9LmgDnX10fm7TMTKWk1suEU2TwON0\nlZW+cY9A+QKBgQDRrg1O34dC+Yvfl/hg4N63KH8I2gIN774pYqMc0AeqnpBDP6Tf\nqp54ULj5bo67mNFo5wW1+5b2YLy6f/8DdiGUh/zeqOtHArAlGOMvWuRWLvWb1ciF\nYs5jsJj/GCswwf0ymrS/Bg9Hd3XOiN1s0AZoVWCH1mlceMmpp26OdArzfQKBgBD2\nktwZX4syQPquyMFta7wPnm/u8Y+54orlHCGgGsj6nTQ6t0FTPAr012hKWxnSBxfP\nBBJ90sC1LX+vqQOw5H7kGpfsAqOCL/S1xuy4t+fjUtg6yLXQ95VU/GwaKufztts0\nGjFX/TsOgwlM29XPixFkdc8YayI+gyecb1qCO2cZAoGBAOBYKPRBS005ryNN5B7O\nBNVmXHmtUwlXQQ0U0UhZDyNrOtV5hUgC/TemW/AhEImk3jInILNcgyaql/f+p/zZ\navXo9fwVkFqVRnG9l7t7kNELpw8nkD3WfC9/OrJKR5BHcWyuuTQOVB/fF6ic0KIu\nxIllOGV3dH16e69UrSwzdAfP\n-----END PRIVATE KEY-----\n",
+  "client_email": "speechtext@nomadic-freedom-259503.iam.gserviceaccount.com",
+  "client_id": "117567266544279262638",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speechtext%40nomadic-freedom-259503.iam.gserviceaccount.com"
+}

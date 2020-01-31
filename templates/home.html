@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>
+{{ titulo }}
+</h1>
+
+
+<div class="container">
+  <div class="text-center">
+    <div class="p-3 mb-2 bg-info text-white">MACHINE LEARNING </div>
+
+
+<form method="POST" action="cogerpath">
+
+
+    <div class="upload-btn-wrapper">
+      <th scope>Seleccionar musica  </th>
+  <input type="file" name="myfile"  accept=".mp3,.wav" required/>
+      <button class="btn btn-info" >Subir</button>
+</div>
+
+
+
+    <h2>{{title}} </h2>
+    <div class="overflow-auto">
+
+
+
+
+
+<div class="row">
+    <div class="col">
+  <fieldset >
+    <div class="p-3 mb-2 bg-info text-white">IDENTIFICACION DE LA SIMILITUD</div>
+
+    <table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+
+      <th scope="col">DISTANCIA DE JACCARD </th>
+      <th scope="col">DISTANCIA DE COSENO</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+
+    <tr>
+
+      <td>{{jaccard}} </td>
+      <td>{{coseno}}</td>
+    </tr>
+
+
+
+  </tbody>
+</table>
+  </fieldset>
+        </div>
+    <div class="col">
+       <img src={{im2}} width="500" height="200"></div>
+    </div>
+  </div>
+  <div class="p-3 mb-2 bg-info text-white"> Recomendacion del titulo</div>
+
+
+
+
+
+  </form>
+  <div class="p-3 mb-2 bg-secondary text-white">{{recomend}} </div>
+    <div class="row">
+    <div class="col">
+  <fieldset >
+    <div class="p-3 mb-2 bg-info text-white">LETRA ORIGINAL DE LA CANCION</div>
+
+  <table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+
+      <th scope="row">LETRA SCR </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p class="text-justify">{{results}}</p> </td>
+
+
+    </tr>
+  </tbody>
+</table>
+    </fieldset>
+        </div>
+    <div class="col">
+  <fieldset >
+<div class="p-3 mb-2 bg-info text-white">LETRA SPEECH DE LA CANCION</div>
+
+  <table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+
+      <th scope="row">SPEECH  RECOGNITION </th>
+
+    </tr>
+  </thead>
+  <tbody>
+     {% for res in speech %}
+
+
+    <tr>
+
+      <td><p class="text-justify">{{res}}</p> </td>
+
+    </tr>
+
+      {% endfor %}
+
+  </tbody>
+</table>
+    </fieldset>
+    </div>
+    </div>
+    <div class="overflow-auto">
+         <div class="p-3 mb-2 bg-secondary text-white">
+
+
+   <img src={{im}} width="900" ></div></div>
+  <div class="text-center">
+<div class="p-3 mb-2 bg-dark text-white">Copyright</div>
+    <div class="p-3 mb-2 bg-dark text-white">Sebastian Guandinango, Anthony Cabezas, Kevin Chacha</div>
+     </div>
+  </div>
+
+  </div>
+
+
+{% endblock %}
